@@ -12,7 +12,7 @@
     "php": "^7.3|^8.0",
     "laravel/nova": "^4.0 || ^5.0",
     "nova-kit/nova-packages-tool": "^1.0",
-    "formfeed-uk/nova-subfield-dependson": "^2.0.0"
+    "venom9078/nova-subfield-dependson": "@dev"
   },
   "autoload": {
     "psr-4": {
@@ -33,6 +33,10 @@
     {
       "type": "composer",
       "url": "https://nova.laravel.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/VenoM9078/nova-subfield-dependson"
     }
   ],
   "minimum-stability": "stable",
