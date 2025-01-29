@@ -1,40 +1,40 @@
 {
-    "name": "formfeed-uk/nova-dependable-panel",
-    "description": "A Laravel Nova Field acting as a Panel for grouped dependsOn functionality",
-    "keywords": [
-        "laravel",
-        "nova",
-        "panel",
-        "dependsOn"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.3|^8.0",
-        "laravel/nova": "^4.0",
-        "nova-kit/nova-packages-tool":"^1.0",
-        "formfeed-uk/nova-subfield-dependson": "^2.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Formfeed\\DependablePanel\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Formfeed\\DependablePanel\\FieldServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "venom9078/nova-dependable-panel",
+  "description": "A Laravel Nova Field acting as a Panel for grouped dependsOn functionality",
+  "keywords": [
+    "laravel",
+    "nova",
+    "panel",
+    "dependsOn"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/nova": "^4.0 || ^5.0",
+    "nova-kit/nova-packages-tool": "^1.0",
+    "formfeed-uk/nova-subfield-dependson": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Formfeed\\DependablePanel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Formfeed\\DependablePanel\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
